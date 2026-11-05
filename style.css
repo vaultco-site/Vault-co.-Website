@@ -22,3 +22,82 @@ body {
   transform: scale(1.1);
   filter: drop-shadow(0 0 5px #002fff);
 }
+
+#WelcomeMSG {
+   position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #006eff;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#WelcomeMSG2 {
+   position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #006eff;
+    text-align: center;
+    white-space: wrap;
+}
+
+.divider {
+    position: absolute;
+    top: 17.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    background-color: #006eff;
+    border: none;
+    height: 1px;
+}
+
+#email{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 100px;
+    border: 1px solid rgba(3, 38, 90, 0.116);
+    background: rgba(5, 12, 22, 0.288);
+    color: #006eff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#email::placeholder {
+    color: #006eff;
+    opacity: 0.5;
+}
+
+#email:focus {
+    outline: none;
+    border-color: #006eff;
+    box-shadow: 0 0 5px #006eff;
+}
+
+#emailPrompt {
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    color: #006eff;
+    font-size: 16px;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #006eff;
+    font-size: 14px;
+}
